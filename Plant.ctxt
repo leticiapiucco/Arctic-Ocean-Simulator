@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ plants.\r\n\ \r\n\ @author\ Leticia\ Piucco\ Marques\ and\ Ruobing\ Zhao\r\n\ @version\ 2020.02.23\r\n
+comment1.params=field\ location
+comment1.target=Plant(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ plant\ at\ location\ in\ field.\r\n\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newPlants
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ Make\ this\ plant\ act.\r\n\ \r\n\ @param\ newPlants\ A\ list\ to\ receive\ newly\ born\ plants.\r\n
+comment3.params=newPlants
+comment3.target=void\ rainAct(java.util.List)
+comment3.text=\r\n\ Make\ this\ plant\ act\ when\ raining\r\n\ \r\n\ @param\ newPlants\ A\ list\ to\ receive\ newly\ born\ plants.\r\n
+comment4.params=
+comment4.target=void\ snowAct()
+comment4.text=\r\n\ Make\ this\ plant\ act\ when\ snowing.\r\n
+comment5.params=
+comment5.target=void\ incrementAge()
+comment5.text=\r\n\ Increase\ the\ age.\r\n\ This\ could\ result\ in\ the\ plant's\ death.\r\n
+comment6.params=breed_prob\ max_litter
+comment6.target=int\ breed(double,\ int)
+comment6.text=\r\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\r\n\ if\ the\ plant\ can\ breed.\r\n\ \r\n\ @param\ breed_prob\ The\ plant's\ breeding\ probability.\r\n\ @param\ max_litter\ Maximum\ number\ of\ births\ possible.\r\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\r\n
+numComments=7

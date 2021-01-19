@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ A\ class\ representing\ the\ weather.\r\n\r\n\ @author\ Leticia\ Piucco\ Marques\ and\ Ruobing\ Zhao\r\n\ @version\ 2020.02.23\r\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\r\n\ Creates\ a\ weather\ with\ a\ random\ temperature\ and\r\n\ sets\ truth-value\ to\ sunny.\ If\ not\ sunny,\ the\ temperature\r\n\ determines\ if\ it\ is\ raining\ or\ snowing.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Changes\ the\ values\ of\ the\ temperature\ and\ weather\ conditions.\r\n
+comment3.params=
+comment3.target=int\ getTemperature()
+comment3.text=\r\n\ @return\ The\ current\ temperature.\r\n
+comment4.params=
+comment4.target=boolean\ isSunny()
+comment4.text=\r\n\ Check\ if\ it\ is\ sunny\ or\ not.\r\n\ \r\n\ @return\ sunny's\ value.\r\n
+comment5.params=
+comment5.target=boolean\ isSnowing()
+comment5.text=\r\n\ Check\ if\ it\ is\ raining\ or\ not.\r\n\ \r\n\ @return\ snowing's\ value.\r\n
+comment6.params=
+comment6.target=boolean\ isRaining()
+comment6.text=\r\n\ Check\ if\ it\ is\ raining\ or\ not.\r\n\ \r\n\ @return\ raining's\ value.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Current\ weather\ is\ transformed\ in\ its\ current\ state.\r\n\ Method\ used\ in\ SimulatorView\r\n\ \r\n\ @return\ string\ of\ the\ current\ weather's\ state.\r\n
+numComments=8

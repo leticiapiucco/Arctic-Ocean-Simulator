@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Seal
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ seal.\r\n\ Seals\ age,\ move,\ eat\ cod,\ and\ die.\r\n\ \r\n\ @author\ Leticia\ Piucco\ Marques\ and\ Ruobing\ Zao\r\n\ @version\ 2020.02.23\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Seal(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ seal.\ A\ seal\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\r\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ seal\ will\ have\ random\ age\ and\ hunger\ level.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newSeals
+comment2.target=void\ nightAct(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ seal\ does\ during\ the\ night\:\ it\ hunts\ for\r\n\ cods.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger,\r\n\ or\ die\ of\ old\ age.\r\n\ \r\n\ @param\ newSeals\ A\ list\ to\ return\ newly\ born\ seals.\r\n
+comment3.params=
+comment3.target=Location\ findFood()
+comment3.text=\r\n\ Look\ for\ cods\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ cod\ is\ eaten.\r\n\ \r\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\r\n
+comment4.params=newSeals
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\r\n\ Check\ whether\ or\ not\ this\ seal\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ \r\n\ @param\ newSeals\ A\ list\ to\ return\ newly\ born\ seals.\r\n
+numComments=5

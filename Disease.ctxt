@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\r\n\ A\ collection\ of\ diseases\ that\ can\ spread\ amoung\ animals.\r\n\ Certain\ disease\ can\ infect\ certain\ animals\ and\ change\ their\ color\ presented\ on\ screen.\r\n\r\n\ @author\ Leticia\ Piucco\ Marques\ and\ Ruobing\ Zhao\r\n\ @version\ 2020.02.23\r\n
+comment1.params=
+comment1.target=Disease()
+comment1.text=\r\n\ Create\ the\ diseases.\ A\ disease\ can\ infect\ certain\ classes\ of\ animal.\r\n
+comment2.params=animal\ view
+comment2.target=void\ infectAnimal(Animal,\ SimulatorView)
+comment2.text=\r\n\ One\ kind\ of\ disease\ can\ infect\ certain\ animal\ and\ change\ its\ color.\r\n\ \r\n\ @param\ animal\ Animal\ being\ infected.\r\n\ @param\ view\ Object\ of\ SimuloarView.\r\n
+comment3.params=animalClass\ diseaseList\ infectProb
+comment3.target=boolean\ canInfect(java.lang.Class,\ java.util.ArrayList,\ double)
+comment3.text=\r\n\ Check\ whether\ the\ disease\ can\ infect\ an\ animal\ species\ or\ not.\r\n\ \r\n\ @param\ animalClass\ Species\ of\ the\ animal\ being\ checked.\r\n\ @param\ diseaseList\ Collection\ of\ infectable\ animal\ species.\r\n\ @param\ infectProb\ Probability\ of\ infection.\r\n\ @return\ true\ if\ disease\ can\ infect\ the\ animal\ species.\r\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Plankton
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ plankton.\r\n\ Planktons\ age,\ move,\ breed,\ and\ die.\r\n\ \r\n\ @author\ Leticia\ Piucco\ Marques\ and\ Ruobing\ Zhao\r\n\ @version\ 2020.02.23\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Plankton(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ plankton.\ A\ plankton\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\r\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ plankton\ will\ have\ random\ age\ and\ hunger\ level.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newPlankton
+comment2.target=void\ dayAct(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ plankton\ does\ during\ day\ -\ it\ looks\ for\r\n\ plants.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger,\r\n\ or\ die\ of\ old\ age\r\n\ \r\n\ @param\ newplanktons\ A\ list\ to\ return\ newly\ born\ planktons.\r\n
+comment3.params=newPlankton
+comment3.target=void\ nightAct(java.util.List)
+comment3.text=\r\n\ This\ is\ what\ the\ plankton\ does\ during\ the\ night\ -\ same\ as\r\n\ during\ the\ day.\r\n\ \r\n\ @param\ newplanktons\ A\ list\ to\ return\ newly\ born\ planktons.\r\n
+comment4.params=
+comment4.target=Location\ findFood()
+comment4.text=\r\n\ Look\ for\ algae\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ found\ algae\ is\ eaten.\r\n\ \r\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\r\n
+comment5.params=newPlanktons
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\r\n\ Check\ whether\ or\ not\ this\ plankton\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ \r\n\ @param\ newPlankton\ A\ list\ to\ return\ newly\ born\ plankton.\r\n
+numComments=6
